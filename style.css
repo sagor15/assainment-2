@@ -191,13 +191,12 @@ main {
   /* margin-top: 43px;
   display: block; */
   position: absolute;
-    margin-left: 905px;
-    margin-top: 1504px;
-    color: 
-    rgba(237, 16, 0)
+  margin-left: 905px;
+  margin-top: 1504px;
+  color: rgba(237, 16, 0);
 }
 
-  /* text-align: right;
+/* text-align: right;
   margin-right: 142px; */
 
 .angle a {
@@ -278,4 +277,5 @@ main {
     display: inline;
     margin-left: 121px;
     margin-top: 4524px;
+  }
 }
