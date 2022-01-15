@@ -194,7 +194,7 @@ main {
 .footer-section {
   margin-top: 122px;
   width: 100%;
-  height: 257px;
+  height: 15%;
   background-color: black;
   color: white;
 }
@@ -250,9 +250,16 @@ main {
 /* <!-- section-part-end  --> */
 /* RESPONSIVE PHOEN  */
 
-@media only screen and (max-width: 677px) {
-  header {
+@media only screen and (max-width: 678px) {
+  body {
+    background-color: white;
+  }
+  .right-side {
     display: none;
+  }
+  .Influ {
+    text-align: center;
+    font-size: 41px;
   }
   .main {
     width: 100%;
@@ -317,7 +324,7 @@ main {
     font-size: 30px;
     display: inline;
     margin-left: 121px;
-    margin-top: 4555px;
+    margin-top: 4589px;
   }
   .review {
     width: 100%;
@@ -350,3 +357,117 @@ main {
     width: 100%;
   }
 }
+
+/* tab-part-responsive */
+@media only screen and (min-width: 679px) and (max-width: 900px) {
+  /* body {
+    background-color: green;
+    color: white;
+  } */
+  .right-side {
+    display: none;
+  }
+  .Influ {
+    text-align: center;
+    font-size: 41px;
+  }
+  .main {
+    width: 100%;
+    background-image: none;
+  }
+  .container {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    justify-content: normal;
+  }
+  .main-left,
+  .main-right img {
+    width: 100%;
+  }
+  .main-left h1 {
+    font-size: 45px;
+    font-family: auto;
+    font-weight: 600;
+    text-align: center;
+  }
+  .main-left p {
+    line-height: 1.4;
+    font-weight: 300;
+    margin-top: 26px;
+    margin-bottom: 31px;
+    width: auto;
+    text-align: center;
+  }
+  .btn {
+    padding: 12px 98px;
+    border: none;
+    background-color: rgb(237 16 0);
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    display: block;
+    margin: auto;
+  }
+
+  .social {
+    text-align: center;
+    margin-top: 11px;
+    font-size: 40px;
+  }
+  .footer-section {
+    margin-top: 122px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .container1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    justify-items: center;
+  }
+  .angle {
+    font-size: 30px;
+    display: inline;
+    margin-left: 245px;
+    margin-top: 2100px;
+  }
+  .review {
+    width: 100%;
+  }
+  .grid {
+    width: 100%;
+    padding: 0;
+    box-shadow: none;
+  }
+  .review-down p {
+    font-size: 33px;
+    text-align: center;
+  }
+  .hh2 {
+    font-size: 72px;
+    text-align: center;
+  }
+  .review-down h5 {
+    font-size: 45px;
+  }
+  .review-down span {
+    font-size: 36px;
+  }
+}
+
+/* @media only screen and (min-width: 900px) {
+  body {
+    background-color: white;
+  }
+  .container1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    justify-items: center;
+  }
+  .angle{ */
