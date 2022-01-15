@@ -97,7 +97,7 @@ main {
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-row-gap: 30px;
+  grid-row-gap: 50px;
   /* justify-content: space-between; */
   font-family: "Roboto Slab", serif;
   margin-top: 40px;
@@ -148,6 +148,46 @@ main {
 .fa-star,
 .fa-star-half-alt {
   color: goldenrod;
+}
+
+/* review-part-start */
+
+.grid {
+  display: grid;
+  grid-template-columns: auto;
+  justify-items: center;
+  box-shadow: 10px 10px 25px grey;
+  padding: 50px 10px;
+  margin-top: 138px;
+}
+.hh2 {
+  padding-bottom: 58px;
+  color: #f96b6b;
+  font-size: 40px;
+}
+.review {
+  width: 887px;
+  margin: 0 auto;
+}
+.review-top {
+}
+.review-top img {
+  width: 230px;
+}
+.review-down {
+}
+.review-down h5 {
+  text-align: center;
+  font-size: 23px;
+}
+.review-down span {
+  text-align: center;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.review-down p {
+  padding: 20px 70px;
 }
 
 /* footer-part-start */
@@ -202,6 +242,7 @@ main {
 .angle a {
   text-decoration: none;
   color: rgba(237, 16, 0);
+  font-size: 26px;
 }
 .angle span {
   color: rgba(237, 16, 0);
@@ -276,6 +317,33 @@ main {
     font-size: 30px;
     display: inline;
     margin-left: 121px;
-    margin-top: 4524px;
+    margin-top: 4589px;
   }
+  .review {
+    width: 100%;
+  }
+  .grid {
+    width: 100%;
+    padding: 0;
+    box-shadow: none;
+  }
+  .review-down p {
+    font-size: 33px;
+    text-align: center;
+  }
+  .hh2 {
+    font-size: 72px;
+    text-align: center;
+  }
+  .review-down h5 {
+    font-size: 45px;
+  }
+  .review-down span {
+    font-size: 36px;
+  }
+  /* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } */
 }
